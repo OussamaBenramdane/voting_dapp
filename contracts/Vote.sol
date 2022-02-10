@@ -9,6 +9,7 @@ contract Voting {
     address public responisbleOfElection;
     address[] public votersList;
 
+
     // Dats de début et de fin les élections
     // définis par le responsable des élections
     uint electionStartDate;
@@ -201,7 +202,7 @@ contract Voting {
             return votersList;
         }
 
-    
+ 
 }
 
 
